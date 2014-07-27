@@ -1,0 +1,14 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <errno.h>
+
+void error(const char *s){
+  fprintf(stderr, "%s\nerrno: %s\n", s, strerror(errno));
+  exit(1);
+}
+int main(int argc, char **argv){
+  
+
+  return 0;
+}
